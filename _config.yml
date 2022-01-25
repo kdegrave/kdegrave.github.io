@@ -259,8 +259,8 @@ tag_archive:
 #   enabled:
 #     - categories
 #     - tags
-#   layouts:
-#     category: archive-taxonomy
+   layouts:
+     category: archive-taxonomy
 #     tag: archive-taxonomy
 #   permalinks:
 #     category: /categories/:name/
