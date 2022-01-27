@@ -47,7 +47,6 @@
       @include yiq-contrasted($color);
       @if ($buttoncolor == inverse) {
         border: 1px solid #c3c3c3;
-        color: #666666;
       }
       @if ($buttoncolor == light-outline) {
         border: 1px solid #fff;
@@ -58,7 +57,7 @@
       }
 
       &:hover {
-        @include yiq-contrasted(mix(#000, $color, 20%));
+        @include yiq-contrasted(mix(#000, $color, 80%));
       }
     }
   }
