@@ -55,6 +55,10 @@ $h-size-6: 1em !default; // ~16px
    Colors
    ========================================================================== */
 
+$new-text-color: #666666 !default;
+$new-hover-color: #f7f7f7 !default;
+$new-border-color: #c3c3c3 !default;
+
 $gray: #7a8288 !default;
 $dark-gray: mix(#000, $gray, 50%) !default;
 $darker-gray: mix(#000, $gray, 60%) !default;
