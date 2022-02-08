@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "Kyle DeGrave"
   avatar : "/images/bio-photo.jpeg"
-  bio    : "Data Scientist at Mercury Healthcare"
+  bio    : "Data Scientist"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
