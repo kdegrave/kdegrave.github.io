@@ -59,9 +59,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Kyle DeGrave"
   avatar : "/images/bio-photo.jpeg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Data Scientist at Mercury Healthcare"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
