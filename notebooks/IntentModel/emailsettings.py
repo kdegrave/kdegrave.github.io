@@ -4,7 +4,7 @@ subject = 'Intent Model Report'
 message = 'THIS IS A TEST MESSAGE'
 
 username = 'my_email@somedoman.com'
-password = xxxxxxxxxxxxxxx
+password = xxxxxxxxxx
 
 server = 'smtp-mail.outlook.com'
 port = 587
