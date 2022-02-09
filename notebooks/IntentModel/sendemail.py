@@ -1,10 +1,10 @@
-import smtplib
-import os.path as op
-from email.mime.multipart import MIMEMultipart
-from email.mime.base import MIMEBase
-from email.mime.text import MIMEText
 from email.utils import COMMASPACE, formatdate
+from email.mime.multipart import MIMEMultipart
+from email.mime.base import MIMEBase, MIMEText
 from email import encoders
+import os.path as op
+import smtplib
+
 
 def send_email(send_from, send_to, subject, message, files=[],
               server='', port='', username='', password='',

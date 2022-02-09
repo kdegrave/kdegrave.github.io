@@ -7,6 +7,7 @@ from sendemail import send_email
 from intentsettings import *
 from emailsettings import *
 
+
 def main():
 	# Get path and metrics data from stored procedures
 	df_p, df_m = stored_procedures()

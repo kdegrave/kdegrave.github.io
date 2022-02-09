@@ -1,8 +1,11 @@
-from formattingfunctions import *
+from formattingfunctions import formatcells, formatlines, formatcolumns
+from formattingfunctions import formatdecimals, formatpercentages
 from intentsettings import *
 import numpy as np
 
+
 def format_workbook(wb, start_p, start_m, tree_p, tree_m, depth_p, depth_m):
+
     # Specify sheet to write to
     ws = wb[sheet_2]
 

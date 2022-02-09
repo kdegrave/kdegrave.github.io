@@ -3,6 +3,7 @@ from intentsettings import *
 import pandas as pd
 import numpy as np
 
+
 def setup_p_data(df_p):
     main_p = tree_p['main'][0]
     elems_p = tree_p['elems']
@@ -28,6 +29,7 @@ def setup_p_data(df_p):
     data_p.loc[data_p['NodeName'].duplicated(), 'NodeName'] = np.nan
     return data_p, depth_p
 
+
 def setup_m_data(df_m):
     main_m = tree_m['main'][0]
     elems_m = tree_m['elems']
@@ -52,6 +54,7 @@ def setup_m_data(df_m):
 
     data_m.loc[data_m['NodeName'].duplicated(), 'NodeName'] = np.nan
     return data_m, depth_m
+
 
 def create_workbook(data_p, data_m):
     # Load in metric definitions workbook

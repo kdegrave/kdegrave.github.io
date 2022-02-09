@@ -17,6 +17,7 @@ border = Border(left=Side(style='thin'),
                 top=Side(style='thin'),
                 bottom=Side(style='thin'))
 
+
 def formatcells(ws, crange, value, border, fill, alignment):
 
     ws.merge_cells(start_row=crange[0], start_column=crange[1],
@@ -39,12 +40,14 @@ def formatcells(ws, crange, value, border, fill, alignment):
                 cell = ws.cell(row=i, column=j)
                 cell.border = border
 
+
 def formatlines(ws, crange):
     if border:
         for i in range(crange[0], crange[2] + 1):
             for j in range(crange[1], crange[3] + 1):
                 cell = ws.cell(row=i, column=j)
                 cell.border = Border(bottom=Side(style='medium'))
+
 
 def formatcolumns(ws):
     dims = {}
@@ -61,6 +64,7 @@ def formatcolumns(ws):
         ws.column_dimensions[col].width = 1.0*(value)
     return ws
 
+
 def formatdecimals(ws):
     for row in ws.rows:
         for cell in row:
@@ -70,6 +74,7 @@ def formatdecimals(ws):
                 else: cell.number_format = '#,###'
             except: pass
     return ws
+
 
 def formatpercentages(ws):
     for row in ws.rows:

@@ -2,14 +2,15 @@ from intentsettings import *
 import pandas as pd
 import pyodbc
 
+
 def stored_procedures():
     conn = pyodbc.connect(
         'DRIVER={FreeTDS};'
-        'SERVER=SERVERNAME;'
+        'SERVER=HGSERVER;'
         'DATABASE=ReportingMetric;'
         'PORT=1433;'
-        'UID=USERID;'
-        'PWD=xxxxxxxxxx;'
+        'UID=HGPROCESS
+        'PWD= ;'
     )
 
     # Run stored procedures to get data. Variable "inNumberOfWeeeks" is hardcoded as 4.
