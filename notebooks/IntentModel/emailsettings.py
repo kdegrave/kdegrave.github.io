@@ -1,10 +1,10 @@
-send_from = 'kdegrave@healthgrades.com'
-send_to = ['kdegrave@healthgrades.com']
+send_from = 'my_email@somedoman.com'
+send_to = ['my_email@somedoman.com']
 subject = 'Intent Model Report'
 message = 'THIS IS A TEST MESSAGE'
 
-username = 'kdegrave@healthgrades.com'
-password = put_password_here
+username = 'my_email@somedoman.com'
+password = xxxxxxxxxxxxxxx
 
 server = 'smtp-mail.outlook.com'
 port = 587
