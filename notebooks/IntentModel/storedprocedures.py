@@ -5,11 +5,11 @@ import pyodbc
 def stored_procedures():
     conn = pyodbc.connect(
         'DRIVER={FreeTDS};'
-        'SERVER=HGDEVQMCEREBRO01;'
+        'SERVER=SERVERNAME;'
         'DATABASE=ReportingMetric;'
         'PORT=1433;'
-        'UID=SCNETI\\QMAutoProcess;'
-        'PWD=QM_Process;'
+        'UID=USERID;'
+        'PWD=xxxxxxxxxx;'
     )
 
     # Run stored procedures to get data. Variable "inNumberOfWeeeks" is hardcoded as 4.
