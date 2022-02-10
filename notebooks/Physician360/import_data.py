@@ -8,14 +8,7 @@ logger = logging.getLogger(__name__)
 def import_comment_data(last_timestamp):
     logger.info('import_comment_data started')
 
-    conn = pyodbc.connect(
-        'DRIVER={FreeTDS};'
-        'SERVER=SERVER;'
-        'DATABASE=DATABASE;'
-        'PORT=0000;'
-        'UID=UID;'
-        'PWD= ;'
-    )
+    conn = pyodbc.connect()
 
     sql = """
             SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
