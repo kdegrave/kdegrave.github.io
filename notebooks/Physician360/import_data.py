@@ -30,13 +30,13 @@ def import_comment_data(last_timestamp):
             AND usc.commentstatusid in (3,5)
             AND us.isconfirmed = 1
             AND us.ispublished = 1
-    """
+          """
 
-    # For pre-saved data
     df = pd.read_csv('Physician360/reviews.csv')
+
     df = df[~df['commenttext'].isnull()].reset_index(drop=True)
+    
     df.rename(columns={'survey_starscore': 'RecommendStar'}, inplace=True)
 
-    #df = pd.read_sql(sql, con=conn, params=[last_timestamp])
     logger.info('import_comment_data finished')
     return df
