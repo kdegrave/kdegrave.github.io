@@ -1,6 +1,6 @@
 # Directory where the report excel file is stored
-file_def = '/Users/degrave/Healthgrades/search/metricReporting/reportgen/MetricDefinitions.xlsx'
-file_out = '/Users/degrave/Healthgrades/search/metricReporting/reportgen/IntentModelReport.xlsx'
+file_def = 'metricReporting/reportgen/MetricDefinitions.xlsx'
+file_out = 'metricReporting/reportgen/IntentModelReport.xlsx'
 
 # Sheet names
 sheet_1 = "Metric Definitions"
