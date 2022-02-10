@@ -1,16 +1,9 @@
-from helper_functions import load_sentiment_classifier
-from helper_functions import load_sentiment_thresholds
-from helper_functions import load_topic_classifier
-from helper_functions import load_topic_thresholds
-from helper_functions import reshape_and_save_data
-from helper_functions import convert_sentiment_output
-from helper_functions import convert_topic_output
-from helper_functions import ItemSelector
-from helper_functions import process_text
-from model_settings import sentiment_classifier_path
-from model_settings import topic_classifier_path
-from model_settings import out_file_path
-from model_settings import log_file_path
+from helper_functions import load_sentiment_classifier, load_sentiment_thresholds
+from helper_functions import load_topic_classifier, load_topic_thresholds
+from helper_functions import reshape_and_save_data, convert_sentiment_output
+from helper_functions import convert_topic_output, ItemSelector, process_text
+from model_settings import sentiment_classifier_path, topic_classifier_path
+from model_settings import out_file_path, log_file_path
 from import_data import import_comment_data
 import pandas as pd
 import numpy as np
