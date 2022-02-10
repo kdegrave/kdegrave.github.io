@@ -10,7 +10,8 @@ def send_email(send_from, send_to, subject, message, files=[],
               server='', port='', username='', password='',
               use_tls=True):
 
-    """Compose and send email with provided info and attachments
+    """
+       Compose and send email with provided info and attachments
 
        args:
             send_from (str): from name
