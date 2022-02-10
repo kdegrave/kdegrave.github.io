@@ -136,6 +136,6 @@ def save_most_recent_timestamp(filename, df):
     else:
         file = open(filename, 'w')
 
-    #file.write(df['InsertedOn'].max().strftime("%Y-%m-%d %H:%M:%S") + '\n')
-    #file.close()
+    file.write(df['InsertedOn'].max().strftime("%Y-%m-%d %H:%M:%S") + '\n')
+    file.close()
     logger.info('save_most_recent_timestamp finished')
