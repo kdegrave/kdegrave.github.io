@@ -4,14 +4,8 @@ import pyodbc
 
 
 def stored_procedures():
-    conn = pyodbc.connect(
-        'DRIVER={FreeTDS};'
-        'SERVER=SERVER;'
-        'DATABASE=DATABASE;'
-        'PORT=0000;'
-        'UID=UID;'
-        'PWD= ;'
-    )
+
+    conn = pyodbc.connect()
 
     # Run stored procedures to get data. Variable "inNumberOfWeeeks" is hardcoded as 4.
     sql_path = "EXEC ReportingMetric.im.ProcGetIntentReportSection \
