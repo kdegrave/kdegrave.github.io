@@ -6,10 +6,10 @@ import pyodbc
 def stored_procedures():
     conn = pyodbc.connect(
         'DRIVER={FreeTDS};'
-        'SERVER=HGSERVER;'
-        'DATABASE=ReportingMetric;'
-        'PORT=1433;'
-        'UID=HGPROCESS
+        'SERVER=SERVER;'
+        'DATABASE=DATABASE;'
+        'PORT=0000;'
+        'UID=UID;'
         'PWD= ;'
     )
 
