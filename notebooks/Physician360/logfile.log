@@ -1,0 +1,24 @@
+2021-02-03 13:00:21,392 INFO __main__ Starting main function
+2021-02-03 13:00:21,392 INFO helper_functions load_topic_classifier started
+2021-02-03 13:00:21,972 INFO helper_functions load_topic_classifier finished
+2021-02-03 13:00:21,972 INFO helper_functions load_topic_thresholds started
+2021-02-03 13:00:21,973 INFO helper_functions load_topic_thresholds finished
+2021-02-03 13:00:21,973 INFO helper_functions load_sentiment_thresholds started
+2021-02-03 13:00:21,974 INFO helper_functions load_sentiment_thresholds finished
+2021-02-03 13:00:21,974 INFO helper_functions load_sentiment_classifier started
+2021-02-03 13:00:23,648 INFO helper_functions load_sentiment_classifier finished
+2021-02-03 13:00:23,649 INFO helper_functions get_most_recent_timestamp started
+2021-02-03 13:00:23,649 INFO helper_functions Creating timestamp file & scoring all reviews
+2021-02-03 13:00:23,649 INFO import_data import_comment_data started
+2021-02-03 13:00:25,911 INFO import_data import_comment_data finished
+2021-02-03 13:01:34,652 INFO helper_functions convert_topic_output started
+2021-02-03 13:01:34,683 INFO helper_functions convert_topic_output finished
+2021-02-03 13:05:07,813 INFO helper_functions convert_sentiment_output started
+2021-02-03 13:05:07,883 INFO helper_functions convert_sentiment_output finished
+2021-02-03 13:05:09,151 INFO helper_functions reshape_and_save_data started
+2021-02-03 13:05:13,886 INFO helper_functions reshape_and_save_data finished
+2021-02-03 13:05:13,887 INFO helper_functions save_most_recent_timestamp started
+2021-02-03 13:05:13,887 INFO helper_functions save_most_recent_timestamp finished
+2021-02-03 13:05:14,066 INFO __main__ Total runtime: 293.0 seconds
+2021-02-03 13:05:14,067 INFO __main__ Exited without errors
+
