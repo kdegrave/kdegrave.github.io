@@ -33,7 +33,7 @@ def import_comment_data(last_timestamp):
     """
 
     # For pre-saved data
-    df = pd.read_csv('/Users/kyledegrave/Desktop/reviews.csv')
+    df = pd.read_csv('output_path/reviews.csv')
     df = df[~df['commenttext'].isnull()].reset_index(drop=True)
     df.rename(columns={'survey_starscore': 'RecommendStar'}, inplace=True)
 
