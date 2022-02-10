@@ -2,11 +2,10 @@ from sklearn.base import TransformerMixin
 from sklearn.base import BaseEstimator
 from datetime import datetime
 from joblib import load
+import sys, re, os
 import numpy as np
 import logging
-import sys
-import re
-import os
+
 
 logger = logging.getLogger(__name__)
 
