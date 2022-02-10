@@ -9,20 +9,22 @@ import smtplib
 def send_email(send_from, send_to, subject, message, files=[],
               server='', port='', username='', password='',
               use_tls=True):
-    """Compose and send email with provided info and attachments.
 
-    Args:
-        send_from (str): from name
-        send_to (str): to name
-        subject (str): message title
-        message (str): message body
-        files (list[str]): list of file paths to be attached to email
-        server (str): mail server host name
-        port (int): port number
-        username (str): server auth username
-        password (str): server auth password
-        use_tls (bool): use TLS mode
+    """Compose and send email with provided info and attachments
+
+       args:
+            send_from (str): from name
+            send_to (str): to name
+            subject (str): message title
+            message (str): message body
+            files (list[str]): list of file paths to be attached to email
+            server (str): mail server host name
+            port (int): port number
+            username (str): server auth username
+            password (str): server auth password
+            use_tls (bool): use TLS mode
     """
+
     msg = MIMEMultipart()
     msg['From'] = send_from
     msg['To'] = COMMASPACE.join(send_to)
